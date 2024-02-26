@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+}
+
+/*formatação do cabeçalho*/
+header#cabecalho {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: 'Pacifico', sans-serif;
+  color: #0e0b0b;
+  font-size: 25px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #6a0303;
+}
+
+nav ul li a:hover {
+  color: #828282;
+}
+
+#pesquisar {
+  width: 100px;
+  height: 20px;
+  border-radius: 10px;
+}
+#lupa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conteudo-principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 5em;
+  background: linear-gradient(#1C1C1C 16.62%, #ff0505 85.61%);
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+
+}
+
+.conteudo-principal-escrito>h1 {
+  font-size: 50px;
+}
+
+.conteudo-botao {
+  display: flex;
+  gap: 25px;
+}
+
+#entrar {
+  width: 50px;
+  height: 15px;
+  border-radius: 10px;
+}
+
+.button {
+  width: 65px;
+  height: 25px;
+  border-radius: 10px;
+  border-color: #828282;
+  color: black;
+  cursor: pointer;
+}
+
+/*formatação do conteúdo*/
+#segundo-conteudo {
+  height: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(#f0eaef 17.62%, #de0505 85.61%);
+
+}
+
+#segundo-conteudo>h1 {
+  font-size: 50px;
+}
+
+#segundo-conteudo>h3 {
+  font-size: 25px;
+}
+
+#segundo-conteudo>picture {
+  display: flex;
+  justify-content: space-between;
+  gap: 10em;
+}
+
+.paragrafo {
+  display: flex;
+  justify-content: space-between;
+  gap: 40em;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(10, 10, 10);
+  width: 1em;
+}
+
+#terceiro-conteudo {
+  height: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(rgb(255, 7, 7) 16.62%, #000000 85.61%);
+}
+
+#terceiro-conteudo>h1 {
+  font-family: 'Pacifico', sans-serif;
+  color: #1C1C1C;
+  font-size: 50px;
+}
+
+#terceiro-conteudo {
+  font-size: 13px;
+}
+
+#terceiro-conteudo>picture {
+  display: flex;
+  justify-content: space-between;
+  gap: 9em;
+}
+
+/*formatção...*/
+#contato {
+  height: 400px;
+  background: linear-gradient(#f2eded 16.62%, #b80404 85.63% );
+}
+#contato>h2 {
+  font-family: 'Pacifico', sans-serif;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome {
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.mensagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nome>input {
+  width: 150px;
+  height: 20px;
+}
+
+.email>input {
+  width: 150px;
+  height: 20px;
+}
+
+.mensagem>input {
+  width: 700px;
+  height: 200px;
+}
+
+.enviar {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+footer>picture {
+  color: #f2eded;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60%;
+  padding: 10px;
+  text-align: center;
+  background-color: #df0e0e;
+  color: white;
+}
